@@ -1,0 +1,79 @@
+Channels:
+ - conda-forge
+ - nvidia
+ - pytorch
+ - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge
+ - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free
+ - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
+ - defaults
+Platform: linux-64
+Collecting package metadata (repodata.json): - \ | / - \ | / - \ | / - \ | / - \ | / - done
+Solving environment: | / done
+
+## Package Plan ##
+
+  environment location: /home/zyz/anaconda3/envs/rlgpu
+
+  added / updated specs:
+    - scipy
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    brotli-python-1.1.0        |   py38h17151c0_1         343 KB  conda-forge
+    cffi-1.17.0                |   py38heb5c249_0         235 KB  conda-forge
+    charset-normalizer-3.4.0   |     pyhd8ed1ab_0          46 KB  conda-forge
+    h2-4.1.0                   |     pyhd8ed1ab_0          46 KB  conda-forge
+    hpack-4.0.0                |     pyh9f0ad1d_0          25 KB  conda-forge
+    hyperframe-6.0.1           |     pyhd8ed1ab_0          14 KB  conda-forge
+    libblas-3.9.0              |20_linux64_openblas          14 KB  conda-forge
+    libcblas-3.9.0             |20_linux64_openblas          14 KB  conda-forge
+    libgfortran-14.2.0         |       h69a702a_2          52 KB  conda-forge
+    libgfortran-ng-14.2.0      |       h69a702a_2          53 KB  conda-forge
+    liblapack-3.9.0            |20_linux64_openblas          14 KB  conda-forge
+    libopenblas-0.3.25         |pthreads_h413a1c8_0         5.3 MB  conda-forge
+    numpy-1.24.4               |   py38h59b608b_0         6.4 MB  conda-forge
+    platformdirs-4.3.6         |     pyhd8ed1ab_0          20 KB  conda-forge
+    pooch-1.8.2                |     pyhd8ed1ab_0          53 KB  conda-forge
+    pycparser-2.22             |     pyhd8ed1ab_0         103 KB  conda-forge
+    scipy-1.10.1               |   py38h59b608b_3        14.6 MB  conda-forge
+    urllib3-2.2.3              |     pyhd8ed1ab_0          96 KB  conda-forge
+    zstandard-0.23.0           |   py38h62bed22_0         396 KB  conda-forge
+    ------------------------------------------------------------
+                                           Total:        27.7 MB
+
+The following NEW packages will be INSTALLED:
+
+  brotli-python      conda-forge/linux-64::brotli-python-1.1.0-py38h17151c0_1 
+  certifi            conda-forge/noarch::certifi-2024.8.30-pyhd8ed1ab_0 
+  cffi               conda-forge/linux-64::cffi-1.17.0-py38heb5c249_0 
+  charset-normalizer conda-forge/noarch::charset-normalizer-3.4.0-pyhd8ed1ab_0 
+  h2                 conda-forge/noarch::h2-4.1.0-pyhd8ed1ab_0 
+  hpack              conda-forge/noarch::hpack-4.0.0-pyh9f0ad1d_0 
+  hyperframe         conda-forge/noarch::hyperframe-6.0.1-pyhd8ed1ab_0 
+  idna               conda-forge/noarch::idna-3.10-pyhd8ed1ab_0 
+  libblas            conda-forge/linux-64::libblas-3.9.0-20_linux64_openblas 
+  libcblas           conda-forge/linux-64::libcblas-3.9.0-20_linux64_openblas 
+  libgfortran        conda-forge/linux-64::libgfortran-14.2.0-h69a702a_2 
+  libgfortran-ng     conda-forge/linux-64::libgfortran-ng-14.2.0-h69a702a_2 
+  libgfortran5       conda-forge/linux-64::libgfortran5-14.2.0-hf1ad2bd_2 
+  liblapack          conda-forge/linux-64::liblapack-3.9.0-20_linux64_openblas 
+  libopenblas        conda-forge/linux-64::libopenblas-0.3.25-pthreads_h413a1c8_0 
+  libstdcxx          conda-forge/linux-64::libstdcxx-14.2.0-h8f9b012_2 
+  libstdcxx-ng       conda-forge/linux-64::libstdcxx-ng-14.2.0-h4852527_2 
+  numpy              conda-forge/linux-64::numpy-1.24.4-py38h59b608b_0 
+  packaging          conda-forge/noarch::packaging-25.0-pyh29332c3_1 
+  platformdirs       conda-forge/noarch::platformdirs-4.3.6-pyhd8ed1ab_0 
+  pooch              conda-forge/noarch::pooch-1.8.2-pyhd8ed1ab_0 
+  pycparser          conda-forge/noarch::pycparser-2.22-pyhd8ed1ab_0 
+  pysocks            conda-forge/noarch::pysocks-1.7.1-pyha2e5f31_6 
+  requests           conda-forge/noarch::requests-2.32.3-pyhd8ed1ab_0 
+  scipy              conda-forge/linux-64::scipy-1.10.1-py38h59b608b_3 
+  urllib3            conda-forge/noarch::urllib3-2.2.3-pyhd8ed1ab_0 
+  zstandard          conda-forge/linux-64::zstandard-0.23.0-py38h62bed22_0 
+  zstd               conda-forge/linux-64::zstd-1.5.6-ha6fb4c9_0 
+
+
+Proceed ([y]/n)? 
